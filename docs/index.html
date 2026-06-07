@@ -206,6 +206,8 @@
           "hero_title2": "Book in Real Time",
           "hero_subtitle": "Let your clients reserve their appointment instantly. Manage availability in real time and simplify your day.",
           "hero_cta": "Start for Free →",
+          "android_clients_cta": "Android for Clients",
+          "ios_providers_cta": "iOS for Providers / Barbers",
           "features_section_title": "Features",
           "feature1_title": "Smart Appointment Management in Real Time",
           "feature1_description": "Manage all your bookings with a visual calendar that updates in real time. Your team, your services, and your schedule — all in perfect sync.",
@@ -354,6 +356,8 @@
           "hero_title2": "Reserva en tiempo real",
           "hero_subtitle": "Permite que tus clientes reserven sus citas al instante. Gestiona la disponibilidad en tiempo real y simplifica tu día.",
           "hero_cta": "Empezar gratis →",
+          "android_clients_cta": "Android para Clientes",
+          "ios_providers_cta": "iOS para Proveedores / Barberos",
           "features_section_title": "Características",
           "feature1_title": "Gestión inteligente de citas en tiempo real",
           "feature1_description": "Administra todas tus reservas con un calendario visual que se actualiza en tiempo real. Tu equipo, tus servicios y tu horario, todo en perfecta sincronía.",
@@ -806,6 +810,25 @@
     class="bg-gradient-to-r from-purple-600 to-purple-800 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl hover:from-purple-700 hover:to-purple-900 transition duration-300 mt-6 sm:mt-8 text-base sm:text-lg">
     Start for Free →
   </a>
+
+  <div class="flex flex-col sm:flex-row items-center justify-center gap-3 w-full max-w-xl">
+    <a
+      href="https://github.com/paxtech-2026-10/Mobile-App/releases"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-purple-200 bg-white px-5 py-3 text-sm sm:text-base font-semibold text-purple-700 shadow-md hover:border-purple-300 hover:bg-purple-50 transition">
+      <i class="fa-brands fa-android" aria-hidden="true"></i>
+      <span data-i18n="android_clients_cta">Android for Clients</span>
+    </a>
+    <a
+      href="https://github.com/paxtech-2026-10/Ios-Mobile-App/releases"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-5 py-3 text-sm sm:text-base font-semibold text-gray-800 shadow-md hover:border-gray-300 hover:bg-gray-50 transition">
+      <i class="fa-brands fa-apple" aria-hidden="true"></i>
+      <span data-i18n="ios_providers_cta">iOS for Providers / Barbers</span>
+    </a>
+  </div>
 
   <!-- Mobile Screens Preview -->
   <div class="mt-8 sm:mt-12 md:mt-14 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8">
@@ -1676,9 +1699,29 @@
     <p class="text-gray-600 mt-4 sm:mt-6 mb-8 sm:mb-10 text-sm sm:text-base" data-i18n="cta_subtitle">
       Discover how uTime helps you manage appointments, shifts, and clients with ease. Start today and optimize your time like never before.
     </p>
-    <a href="https://paxtech-2026-10.github.io/Frontend-Web-Application/" class="inline-block px-6 sm:px-8 py-3 sm:py-4 text-white font-semibold rounded-full bg-gradient-to-r from-purple-600 to-purple-800 shadow-lg hover:from-purple-700 hover:to-purple-900 transition text-sm sm:text-base" data-i18n="cta_button">
-      Start for Free →
-    </a>
+    <div class="flex flex-col items-center gap-3">
+      <a href="https://paxtech-2026-10.github.io/Frontend-Web-Application/" class="inline-block px-6 sm:px-8 py-3 sm:py-4 text-white font-semibold rounded-full bg-gradient-to-r from-purple-600 to-purple-800 shadow-lg hover:from-purple-700 hover:to-purple-900 transition text-sm sm:text-base" data-i18n="cta_button">
+        Start for Free →
+      </a>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 w-full">
+        <a
+          href="https://github.com/paxtech-2026-10/Mobile-App/releases"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-purple-200 bg-white px-5 py-3 text-sm sm:text-base font-semibold text-purple-700 shadow-md hover:border-purple-300 hover:bg-purple-50 transition">
+          <i class="fa-brands fa-android" aria-hidden="true"></i>
+          <span data-i18n="android_clients_cta">Android for Clients</span>
+        </a>
+        <a
+          href="https://github.com/paxtech-2026-10/Ios-Mobile-App/releases"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-5 py-3 text-sm sm:text-base font-semibold text-gray-800 shadow-md hover:border-gray-300 hover:bg-gray-50 transition">
+          <i class="fa-brands fa-apple" aria-hidden="true"></i>
+          <span data-i18n="ios_providers_cta">iOS for Providers / Barbers</span>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
